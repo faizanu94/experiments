@@ -7,7 +7,7 @@ let hue = 0;
 class Particle {
   constructor(effect) {
     this.effect = effect;
-    this.radius = Math.random() * 40 + 5;
+    this.radius = Math.random() * 50 + 5;
     this.x = this.radius + Math.random() * (effect.width - this.radius * 2);
     this.y = this.radius + Math.random() * (effect.height - this.radius * 2);
     this.vx = Math.random() * 1 - 0.5;
